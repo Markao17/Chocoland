@@ -1,2 +1,9 @@
 // Compile "main.scss" as "dist/main.css"
+
+// Import Tailwind CSS
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Base styles from starter theme
 @import 'sass/base';

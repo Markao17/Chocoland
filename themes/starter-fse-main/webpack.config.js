@@ -8,6 +8,7 @@ module.exports = {
   ...{
     mode: "production",
     devServer: {
+      allowedHosts: ".local",
       static: {
         directory: path.join(__dirname, "assets"),
       },

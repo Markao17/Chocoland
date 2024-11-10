@@ -1,25 +1,30 @@
 {
-	"name": "themes-starter-fse",
-	"version": "1.0.0",
-	"license": "GPL-2.0",
-	"description": "A WordPress Starter Theme built for Full Site Editing.",
-	"homepage": "https://them.es",
-	"author": "them.es",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/them-es/themes-starter-fse.git"
-	},
-	"scripts": {
-		"watch": "webpack serve && wp-scripts start",
-		"build": "wp-scripts build"
-	},
-	"browserslist": [
-		"last 2 versions"
-	],
-	"dependencies": {},
-	"devDependencies": {
-		"@wordpress/scripts": "^27.7.0",
-		"path": "^0.12.7",
-		"webpack-remove-empty-scripts": "^1.0.4"
-	}
+  "name": "themes-starter-fse",
+  "version": "1.0.0",
+  "license": "GPL-2.0",
+  "description": "A WordPress Starter Theme built for Full Site Editing.",
+  "homepage": "https://them.es",
+  "author": "them.es",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/them-es/themes-starter-fse.git"
+  },
+  "scripts": {
+    "watch": "webpack serve && wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.7.0",
+    "autoprefixer": "^10.4.20",
+    "path": "^0.12.7",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "webpack-remove-empty-scripts": "^1.0.4"
+  }
 }
