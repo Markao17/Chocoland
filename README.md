@@ -7,9 +7,7 @@ This project is a custom WordPress site developed with a theme based on [them.es
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Scripts](#scripts)
-- [Local Development](#local-development)
-- [License](#license)
+- [Setps to Install](#steps)
 
 ---
 
