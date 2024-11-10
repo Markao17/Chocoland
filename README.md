@@ -55,8 +55,8 @@ This repository contains the `wp-content` folder of a WordPress installation. Pl
     - Navigate to `Appearance` > `Themes`.
     - Activate the `Chocoland` theme.
 
-6. **Import the Database**:
-    - Import the database file [placeholder] to your WordPress database.
+6. **Import the Default Database** ( optional ):
+    - Import the database file [local.sql](https://github.com/Markao17/Chocoland/blob/main/local.sql) ( in the repo ) to your WordPress database.
     - Using wp-cli update the site URL in the database:
     ```bash
     wp search-replace 'http://wyperformance-challenge.local' 'http://your-site-url.local'
