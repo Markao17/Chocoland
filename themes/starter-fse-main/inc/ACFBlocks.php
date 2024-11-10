@@ -50,6 +50,19 @@ class ACFBlocks {
                     'keywords'        => array( 'hero', 'slider' ),
                 )
             );
+
+            // Register a News block to show a list of posts.
+            acf_register_block_type(
+                array(
+                    'name'            => 'news-list',
+                    'title'           => __( 'News List' ),
+                    'description'     => __( 'A Block to show a Title, Description and a list of X Posts.' ),
+                    'render_template' => 'template-parts/blocks/news-list.php',
+                    'category'        => 'chocoland',
+                    'icon'            => 'admin-comments',
+                    'keywords'        => array( 'news', 'list' ),
+                )
+            );
         }
     }
 }

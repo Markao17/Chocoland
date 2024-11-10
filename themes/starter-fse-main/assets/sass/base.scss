@@ -16,6 +16,7 @@ $white: var(--wp--preset--color--white) !default;
 // Color vars
 $primary: var(--wp--preset--color--primary) !default;
 $secondary: var(--wp--preset--color--secondary) !default;
+$tertiary: var(--wp--preset--color--tertiary) !default;
 
 // Spacing
 $spacing-vertical: var(--wp--preset--spacing--3, 1rem) !default;
@@ -102,11 +103,6 @@ header {
 
 		.wp-block-search {
 			max-width: 290px;
-
-			.wp-block-search__button {
-				padding: 0;
-				color: inherit;
-			}
 		}
 	}
 }

@@ -83,6 +83,11 @@
 					"slug": "secondary"
 				},
 				{
+					"color": "#5c2f27",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
 					"color": "var(--wp--preset--color--black)",
 					"name": "Foreground",
 					"slug": "foreground"
@@ -235,10 +240,6 @@
 				}
 			},
 			"core/search": {
-				"border": {
-					"radius": "0px",
-					"width": "1px"
-				},
 				"color": {
 					"text": "var(--wp--preset--color--dark-gray)"
 				},
