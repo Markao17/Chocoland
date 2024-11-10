@@ -11,7 +11,7 @@ if ( $exceed_range_limit ) {
     $posts_to_show = get_field( 'posts_to_show' );
 }
 
-// Query for Posts with the given posts_to_show value.
+// Query for Posts with the given posts_to_show value, to show in the block.
 $args = array(
     'posts_per_page' => $posts_to_show,
     'post_type' => 'post',

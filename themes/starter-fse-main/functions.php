@@ -114,4 +114,6 @@ function chocoland_register_custom_post_types() {
         'show_in_rest' => true,
     ) );
 }
+
+// Hook into the 'init' action to register custom post types
 add_action( 'init', 'chocoland_register_custom_post_types' );

@@ -1,6 +1,7 @@
 <?php
 // The render callback function for the Hero block.
 
+// Get the slides, that is a repeater field.
 $slides = get_field( 'slide' );
 ?>
 
