@@ -92,3 +92,7 @@ if ( ! function_exists( 'themes_starter_load_scripts' ) ) {
 	}
 	add_action( 'wp_enqueue_scripts', 'themes_starter_load_scripts' );
 }
+
+require_once get_template_directory() . '/inc/ACFBlocks.php';
+// Instantiate the ACFBlocks class.
+new ACFBlocks();
