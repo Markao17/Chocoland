@@ -9,9 +9,9 @@ $slides = get_field( 'slide' );
             <div class="swiper-wrapper">
                 <?php foreach ( $slides as $slide ) : ?>
                     <div class="swiper-slide bg-cover bg-center text-white "  style="background-image:url(<?php echo $slide['background_image']; ?>)">
-                        <div class="hero-slider__content w-3/5 md:w-2/4 bg-opacity-70 bg-gradient-to-r from-primary from-5% to-transparent to-120% py-52 px-24">
+                        <div class="hero-slider__content w-full lg:w-2/4 bg-opacity-70 bg-gradient-to-r from-primary from-5% to-transparent to-120% py-40 md:py-52 px-14 md:px-24">
                             <?php if ( $slide['title'] ) : ?>
-                                <h2 class="text-5xl mb-4"><?php echo esc_html( $slide['title'] ); ?></h2>
+                                <h2 class="text-3xl md:text-4xl lg:text-5xl mb-4"><?php echo esc_html( $slide['title'] ); ?></h2>
                             <?php endif; ?>
                                 
                             <?php if ( $slide['text'] ) : ?>

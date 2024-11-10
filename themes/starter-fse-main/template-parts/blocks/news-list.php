@@ -22,7 +22,7 @@ $news_query = new WP_Query( $args );
 
 ?>
 
-<div class="news-list mt-20">
+<div class="news-list mt-20 px-8">
     <div class="container mx-auto">
         <?php if ( $title || $description ) : ?>
             <div class="news-list__header mb-8">

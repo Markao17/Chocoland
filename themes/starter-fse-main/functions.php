@@ -96,3 +96,22 @@ if ( ! function_exists( 'themes_starter_load_scripts' ) ) {
 require_once get_template_directory() . '/inc/ACFBlocks.php';
 // Instantiate the ACFBlocks class.
 new ACFBlocks();
+
+// Register Custom Post Type
+function chocoland_register_custom_post_types() {
+
+    // Register Events Custom Post Type
+    register_post_type( 'chocoland_events', array(
+        'labels'      => array(
+            'name'          => __( 'Events', 'chocoland' ),
+            'singular_name' => __( 'Event', 'chocoland' )
+        ),
+        'public'      => true,
+        'has_archive' => true,
+        'rewrite'     => array( 'slug' => 'events' ),
+        'supports'    => array( 'title', 'editor', 'thumbnail' ),
+        'taxonomies'  => array( 'category', 'post_tag' ),
+        'show_in_rest' => true,
+    ) );
+}
+add_action( 'init', 'chocoland_register_custom_post_types' );
