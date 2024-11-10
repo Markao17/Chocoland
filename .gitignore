@@ -15,6 +15,7 @@
 /readme.html
 /wp-*.php
 /xmlrpc.php
+/local.sql
 
 # Node dependencies
 themes/*/node_modules
