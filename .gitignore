@@ -5,11 +5,10 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
+/index.php
+/languages
+/plugins/index.php
+/themes/index.php
 /wp-includes/
 /index.php
 /license.txt
@@ -17,17 +16,20 @@
 /wp-*.php
 /xmlrpc.php
 
+# Node dependencies
+themes/*/node_modules
+
 # Configuration
 wp-config.php
 
 # Example themes
-/wp-content/themes/twenty*/
+/themes/twenty*/
 
 # Example plugin
-/wp-content/plugins/hello.php
+/plugins/hello.php
 
 # Uploads
-/wp-content/uploads/
+/uploads/
 
 # Log files
 *.log
@@ -39,10 +41,10 @@ wp-config.php
 #
 # Note: If you wish to whitelist plugins,
 # uncomment the next line
-#/wp-content/plugins
+#/plugins
 
 # All themes
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
-#/wp-content/themes
+#/themes
